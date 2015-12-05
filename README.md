@@ -19,4 +19,4 @@ min:0 median:0 avg:3 max:552 iter:322<br>
 ## Notes
  add -p option
  
- port 53固定だったものを任意指定できるように変更
+ port 53固定だったものを任意指定できるようにオプション追加
