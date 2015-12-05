@@ -17,6 +17,6 @@ $ /ush/share/cacti/scripts/dnsResponseTimeLoop.pl -h www.example.co.jp -s 127.0.
 min:0 median:0 avg:3 max:552 iter:322<br>
 <br>
 ## Notes
- add port option
+ add -p option
  
  port 53固定だったものを任意指定できるように変更
