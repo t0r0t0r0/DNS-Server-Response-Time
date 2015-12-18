@@ -11,18 +11,18 @@ dnsResponseTimeLoop.pl - DNS-Query and Statistics
 
 =head1 SYNOPSIS
 
-        dnsResponseTime.pl -h host -s server -r -v -i interval -d delay -t timeout]
+        dnsResponseTime.pl -h host -s server -r -v -i interval -d delay -t timeout -p port]
 
         ./dnsResponseTime.pl -h www.icrc.org  -s 129.132.98.12 -p 53 -v  -r  -t 5  -i 300
 
         host:           host to be resolved
         server:         DNS servers to ask
+        port:           DNS servers Port (default 53)
         recursive:      recursive query (default 0 iterative , e.g. all or nothing)
         verbose:        debug output
         interval:       time interval during which to query repeatedly (default 60)
         delay:          delay between quweries in seconds (default 0s)
         timeout:        timeout in seconds (default 10s)
-        port:           DNS Server Port (default 53)
 
 =head1 DESCRIPTION
 
