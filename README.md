@@ -34,5 +34,4 @@ timeout  : timeout in seconds (default 10s)<br>
 <br>
 ## Notes
  add -p option<br>
- <br>
- port 53固定だったものを任意指定できるようにオプション追加<br>
+
